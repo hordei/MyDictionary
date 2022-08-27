@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:paddingBottom="20dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:text="@string/add_word_to_dictionary"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+    <EditText
+        android:id="@+id/edt_word"
+        android:layout_marginStart="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/ubuntu"
+        android:hint="@string/enter_word" />
+    <EditText
+        android:id="@+id/edt_meaning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/ubuntu"
+        android:hint="@string/enter_meaning_of_word" />
+    <Button
+        android:id="@+id/btn_addWord"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonshape"
+        android:backgroundTint="@color/purple_700"
+        android:drawableEnd="@drawable/arrow_shape"
+        android:fontFamily="@font/ubuntu_bold"
+        android:paddingEnd="5dp"
+        android:text="@string/add"
+        android:textColor="@android:color/white" />
+</LinearLayout>

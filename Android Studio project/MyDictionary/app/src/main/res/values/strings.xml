@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Dictionary</string>
+    // activity_dictionary_activity.xml strings
+    <string name="words">Words</string>
+    <string name="words1">Words</string>
+    <string name="no_record">No Record</string>
+    <string name="meanings">Meanings</string>
+    <string name="hamburger_image1">Hamburger button</string>
+    // activity_splash_screen.xml string
+    <string name="my_dictionary">My Dictionary</string>
+    // custom_list.xml strings
+    <string name="word">Word</string>
+    <string name="meaning">Meaning</string>
+    // dialog.xml strings
+    <string name="enter_word">Enter word</string>
+    <string name="enter_meaning_of_word">Enter meaning</string>
+    <string name="add">Add</string>
+    <string name="add_word_to_dictionary">Add Word To Dictionary</string>
+    // activity_select_your_language.xml string
+    <string name="select_your_language">Select Your Language</string>
+    // activity_quiz_screen.xml strings
+    <string name="hamburger_image">Hamburger button</string>
+    <string name="quiz">Quiz</string>
+    <string name="what_is_meaning_of">What is meaning of </string>
+    <string name="progress">Progress1/2</string>
+    // activity_main.xml strings
+    <string name="select_language_to_learn">Select Language to Learn</string>
+</resources>
